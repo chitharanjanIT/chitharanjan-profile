@@ -1,401 +1,361 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!doctype html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.1">
-  <style type="text/css">
-    body {background-color: #0b0d13}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #4689cc; -webkit-text-stroke: #4689cc}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #c1c1c1; -webkit-text-stroke: #c1c1c1}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #c27e65; -webkit-text-stroke: #c27e65}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #8cd3fe; -webkit-text-stroke: #8cd3fe}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #cacaca; -webkit-text-stroke: #cacaca}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #c1c1c1; -webkit-text-stroke: #c1c1c1; min-height: 14.0px}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #598a43; -webkit-text-stroke: #598a43}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #cdad6a; -webkit-text-stroke: #cdad6a}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #42b3ff; -webkit-text-stroke: #42b3ff}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #d4d69a; -webkit-text-stroke: #d4d69a}
-    span.s1 {font-kerning: none; color: #6d6d6d; background-color: #181818; -webkit-text-stroke: 0px #6d6d6d}
-    span.s2 {font-kerning: none; background-color: #181818}
-    span.s3 {font-kerning: none; color: #c1c1c1; background-color: #181818; -webkit-text-stroke: 0px #c1c1c1}
-    span.s4 {font-kerning: none; color: #8cd3fe; background-color: #181818; -webkit-text-stroke: 0px #8cd3fe}
-    span.s5 {font-kerning: none; color: #4689cc; background-color: #181818; -webkit-text-stroke: 0px #4689cc}
-    span.s6 {font-kerning: none; color: #c27e65; background-color: #181818; -webkit-text-stroke: 0px #c27e65}
-    span.s7 {font-kerning: none; color: #cacaca; background-color: #181818; -webkit-text-stroke: 0px #cacaca}
-    span.s8 {font-kerning: none; color: #cdad6a; background-color: #181818; -webkit-text-stroke: 0px #cdad6a}
-    span.s9 {font-kerning: none; color: #a7c598; background-color: #181818; -webkit-text-stroke: 0px #a7c598}
-    span.s10 {font-kerning: none}
-    span.s11 {font-kerning: none; color: #b76fb3; background-color: #181818; -webkit-text-stroke: 0px #b76fb3}
-    span.s12 {font-kerning: none; color: #42b3ff; background-color: #181818; -webkit-text-stroke: 0px #42b3ff}
-    span.s13 {font-kerning: none; color: #d4d69a; background-color: #181818; -webkit-text-stroke: 0px #d4d69a}
-    span.s14 {font-kerning: none; color: #43c0a0; background-color: #181818; -webkit-text-stroke: 0px #43c0a0}
-    span.s15 {font-kerning: none; color: #598a43; background-color: #181818; -webkit-text-stroke: 0px #598a43}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!</span><span class="s2">doctype</span><span class="s3"> </span><span class="s4">html</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s1">&lt;</span><span class="s2">html</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s2">head</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">meta</span><span class="s2"> </span><span class="s4">charset</span><span class="s2">=</span><span class="s6">"UTF-8"</span><span class="s2"> </span><span class="s1">/&gt;</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">meta</span><span class="s3"> </span><span class="s4">name</span><span class="s3">=</span><span class="s2">"viewport"</span><span class="s3"> </span><span class="s4">content</span><span class="s3">=</span><span class="s2">"width=device-width, initial-scale=1"</span><span class="s3"> </span><span class="s1">/&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">title</span><span class="s1">&gt;</span><span class="s2">Chitharanjan | Profile</span><span class="s1">&lt;/</span><span class="s5">title</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s2">style</span><span class="s1">&gt;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s8">body</span><span class="s7"> { </span><span class="s2">font-family</span><span class="s7">: </span><span class="s6">Arial</span><span class="s7">, </span><span class="s6">sans-serif</span><span class="s7">; </span><span class="s2">margin</span><span class="s7">: </span><span class="s9">0</span><span class="s7">; </span><span class="s2">background</span><span class="s7">: </span><span class="s6">#0b0f19</span><span class="s7">; </span><span class="s2">color</span><span class="s7">: </span><span class="s6">#e6e8ee</span><span class="s7">; }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.wrap</span><span class="s2"> { </span><span class="s4">max-width</span><span class="s2">: </span><span class="s9">2000px</span><span class="s2">; </span><span class="s4">margin</span><span class="s2">: </span><span class="s9">0</span><span class="s2"> </span><span class="s6">auto</span><span class="s2">; </span><span class="s4">padding</span><span class="s2">: </span><span class="s9">32px</span><span class="s2">; }</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s8">.card</span><span class="s7"> { </span><span class="s2">background</span><span class="s7">: </span><span class="s6">#020b1c</span><span class="s7">; </span><span class="s2">border</span><span class="s7">: </span><span class="s9">1px</span><span class="s7"> </span><span class="s6">solid</span><span class="s7"> </span><span class="s6">#22304a</span><span class="s7">; </span><span class="s2">border-radius</span><span class="s7">: </span><span class="s9">14px</span><span class="s7">; </span><span class="s2">padding</span><span class="s7">: </span><span class="s9">10px</span><span class="s7">; }</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s8">.row</span><span class="s7"> { </span><span class="s2">display</span><span class="s7">: </span><span class="s6">flex</span><span class="s7">; </span><span class="s2">gap</span><span class="s7">: </span><span class="s9">16px</span><span class="s7">; </span><span class="s2">flex-wrap</span><span class="s7">: </span><span class="s6">wrap</span><span class="s7">; </span><span class="s2">align-items</span><span class="s7">: </span><span class="s6">center</span><span class="s7">; }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.name</span><span class="s2"> { </span><span class="s4">font-size</span><span class="s2">: </span><span class="s9">28px</span><span class="s2">; </span><span class="s4">margin</span><span class="s2">: </span><span class="s9">0</span><span class="s2">; }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.muted</span><span class="s2"> { </span><span class="s4">color</span><span class="s2">: </span><span class="s6">#a9b2c7</span><span class="s2">; </span><span class="s4">margin</span><span class="s2">: </span><span class="s9">6px</span><span class="s2"> </span><span class="s9">0</span><span class="s2"> </span><span class="s9">0</span><span class="s2">; }</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s8">.pill</span><span class="s7"> { </span><span class="s2">display</span><span class="s7">:</span><span class="s6">inline-block</span><span class="s7">; </span><span class="s2">padding</span><span class="s7">: </span><span class="s9">8px</span><span class="s7"> </span><span class="s9">12px</span><span class="s7">; </span><span class="s2">border-radius</span><span class="s7">: </span><span class="s9">999px</span><span class="s7">; </span><span class="s2">border</span><span class="s7">: </span><span class="s9">1px</span><span class="s7"> </span><span class="s6">solid</span><span class="s7"> </span><span class="s6">#2b3d63</span><span class="s7">; </span><span class="s2">background</span><span class="s7">:</span><span class="s6">#0f1728</span><span class="s7">; </span><span class="s2">margin</span><span class="s7">: </span><span class="s9">6px</span><span class="s7"> </span><span class="s9">8px</span><span class="s7"> </span><span class="s9">0</span><span class="s7"> </span><span class="s9">0</span><span class="s7">; </span><span class="s2">font-size</span><span class="s7">: </span><span class="s9">14px</span><span class="s7">; }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.section</span><span class="s2"> { </span><span class="s4">margin-top</span><span class="s2">: </span><span class="s9">18px</span><span class="s2">; }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">ul</span><span class="s2"> { </span><span class="s4">margin</span><span class="s2">: </span><span class="s9">10px</span><span class="s2"> </span><span class="s9">0</span><span class="s2"> </span><span class="s9">0</span><span class="s2">; </span><span class="s4">padding-left</span><span class="s2">: </span><span class="s9">18px</span><span class="s2">; }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">a</span><span class="s2"> { </span><span class="s4">color</span><span class="s2">: </span><span class="s6">#8fdfff</span><span class="s2">; }</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">/* -------- 3-column layout (LEFT: certs, MIDDLE: content, RIGHT: contacts) -------- */</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.page-layout</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">display</span><span class="s2">:</span><span class="s6">grid</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">grid-template-columns</span><span class="s7">: </span><span class="s9">280px</span><span class="s7"> </span><span class="s9">1fr</span><span class="s7"> </span><span class="s9">260px</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">24px</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">align-items</span><span class="s7">:</span><span class="s6">start</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.sidebar</span><span class="s7">{</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">border-right</span><span class="s7">:</span><span class="s9">1px</span><span class="s7"> </span><span class="s6">solid</span><span class="s7"> </span><span class="s6">#22304a</span><span class="s7">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">padding-right</span><span class="s7">:</span><span class="s9">18px</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">position</span><span class="s2">:</span><span class="s6">sticky</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">top</span><span class="s2">:</span><span class="s9">24px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.main</span><span class="s2">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">min-width</span><span class="s2">:</span><span class="s9">0</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.right-sidebar</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">position</span><span class="s2">:</span><span class="s6">sticky</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">top</span><span class="s2">:</span><span class="s9">24px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">display</span><span class="s2">:</span><span class="s6">flex</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">flex-direction</span><span class="s7">:</span><span class="s6">column</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">12px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.sidebar-title</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">font-size</span><span class="s2">:</span><span class="s9">18px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">margin</span><span class="s2">: </span><span class="s9">8px</span><span class="s2"> </span><span class="s9">0</span><span class="s2"> </span><span class="s9">14px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">color</span><span class="s2">:</span><span class="s6">#e6e8ee</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">font-weight</span><span class="s7">:</span><span class="s9">700</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.cert-item</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">padding</span><span class="s2">:</span><span class="s9">12px</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">margin-bottom</span><span class="s7">:</span><span class="s9">10px</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">cursor</span><span class="s2">:</span><span class="s6">pointer</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">border-radius</span><span class="s7">:</span><span class="s9">10px</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">color</span><span class="s2">:</span><span class="s6">#a9b2c7</span><span class="s2">;</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s4">border</span><span class="s7">:</span><span class="s9">1px</span><span class="s7"> </span><span class="s2">solid</span><span class="s7"> </span><span class="s2">transparent</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.cert-item:hover</span><span class="s7">{ </span><span class="s4">background</span><span class="s7">:</span><span class="s6">#16203a</span><span class="s7">; }</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.cert-item.active</span><span class="s7">{</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">background</span><span class="s7">:</span><span class="s6">#1c2a4a</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">color</span><span class="s2">:</span><span class="s6">#fff</span><span class="s2">;</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s4">border</span><span class="s7">:</span><span class="s9">1px</span><span class="s7"> </span><span class="s2">solid</span><span class="s7"> </span><span class="s2">#2b3d63</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.cert-img</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">width</span><span class="s2">:</span><span class="s9">100%</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">max-width</span><span class="s2">:</span><span class="s9">220px</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">margin-top</span><span class="s7">:</span><span class="s9">8px</span><span class="s7">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">border-radius</span><span class="s7">:</span><span class="s9">8px</span><span class="s7">;</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s4">border</span><span class="s7">:</span><span class="s9">1px</span><span class="s7"> </span><span class="s2">solid</span><span class="s7"> </span><span class="s2">#2b3d63</span><span class="s7">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">background</span><span class="s7">:</span><span class="s6">#0f1728</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">display</span><span class="s2">:</span><span class="s6">block</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">/* Skills + clients side-by-side inside main */</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.two-col-section</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">display</span><span class="s2">:</span><span class="s6">flex</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">32px</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">align-items</span><span class="s7">:</span><span class="s6">flex-start</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.col</span><span class="s2">{ </span><span class="s4">flex</span><span class="s2">:</span><span class="s9">1</span><span class="s2">; </span><span class="s4">min-width</span><span class="s2">:</span><span class="s9">0</span><span class="s2">; }</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.client-item</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">display</span><span class="s2">:</span><span class="s6">flex</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">align-items</span><span class="s7">:</span><span class="s6">center</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">10px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">padding</span><span class="s2">:</span><span class="s9">8px</span><span class="s2"> </span><span class="s9">0</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">color</span><span class="s2">:</span><span class="s6">#c8d0e0</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">font-size</span><span class="s2">:</span><span class="s9">15px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.flag</span><span class="s2">{ </span><span class="s4">font-size</span><span class="s2">:</span><span class="s9">20px</span><span class="s2">; }</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.client-cols</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">display</span><span class="s2">:</span><span class="s6">flex</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">24px</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">align-items</span><span class="s7">:</span><span class="s6">flex-start</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s8">.client-col</span><span class="s2">{ </span><span class="s4">flex</span><span class="s2">:</span><span class="s9">1</span><span class="s2">; </span><span class="s4">min-width</span><span class="s2">:</span><span class="s9">0</span><span class="s2">; }</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.client-col-title</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">font-size</span><span class="s2">:</span><span class="s9">14px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">color</span><span class="s2">:</span><span class="s6">#a9b2c7</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">margin</span><span class="s2">: </span><span class="s9">0</span><span class="s2"> </span><span class="s9">0</span><span class="s2"> </span><span class="s9">8px</span><span class="s2"> </span><span class="s9">0</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">/* Contact cards */</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.contact-card</span><span class="s7">{</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s4">border</span><span class="s7">:</span><span class="s9">1px</span><span class="s7"> </span><span class="s2">solid</span><span class="s7"> </span><span class="s2">#2b3d63</span><span class="s7">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">background</span><span class="s7">:</span><span class="s6">#0f1728</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">padding</span><span class="s2">:</span><span class="s9">12px</span><span class="s2"> </span><span class="s9">14px</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">border-radius</span><span class="s7">:</span><span class="s9">12px</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">.contact-card</span><span class="s7"> </span><span class="s2">a</span><span class="s7">{</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">text-decoration</span><span class="s7">:</span><span class="s6">none</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">color</span><span class="s2">:</span><span class="s6">#8fdfff</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">font-weight</span><span class="s7">:</span><span class="s9">600</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">word-break</span><span class="s2">: </span><span class="s6">break-word</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s2">/* -------- Mobile / Tablet -------- */</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s11">@media</span><span class="s2"> (</span><span class="s4">max-width</span><span class="s2">: </span><span class="s9">900px</span><span class="s2">){</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s8">.wrap</span><span class="s2">{ </span><span class="s4">padding</span><span class="s2">: </span><span class="s9">14px</span><span class="s2">; }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s8">.card</span><span class="s2">{ </span><span class="s4">padding</span><span class="s2">: </span><span class="s9">12px</span><span class="s2">; }</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">/* stack columns */</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">.page-layout</span><span class="s7">{</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">grid-template-columns</span><span class="s7">: </span><span class="s9">1fr</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">16px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s8">.sidebar</span><span class="s2">{</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">border-right</span><span class="s7">:</span><span class="s6">none</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">border-bottom</span><span class="s2">:</span><span class="s9">1px</span><span class="s2"> </span><span class="s6">solid</span><span class="s2"> </span><span class="s6">#22304a</span><span class="s2">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">padding-right</span><span class="s7">:</span><span class="s9">0</span><span class="s7">;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">padding-bottom</span><span class="s7">:</span><span class="s9">12px</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">position</span><span class="s2">:</span><span class="s6">static</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">top</span><span class="s2">:</span><span class="s6">auto</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">.right-sidebar</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">position</span><span class="s2">:</span><span class="s6">static</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">top</span><span class="s2">:</span><span class="s6">auto</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">/* stack Skills and Clients */</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">.two-col-section</span><span class="s7">{</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">flex-direction</span><span class="s7">:</span><span class="s6">column</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">16px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">/* stack AU/US */</span></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">.client-cols</span><span class="s7">{</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">flex-direction</span><span class="s7">:</span><span class="s6">column</span><span class="s7">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">gap</span><span class="s2">:</span><span class="s9">14px</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p8"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s2">.cert-img</span><span class="s7">{</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">max-width</span><span class="s2">:</span><span class="s9">100%</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">width</span><span class="s2">:</span><span class="s9">100%</span><span class="s2">;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p1"><span class="s7"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/</span><span class="s2">style</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/</span><span class="s2">head</span><span class="s1">&gt;</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;</span><span class="s2">body</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">div</span><span class="s2"> </span><span class="s4">class</span><span class="s2">=</span><span class="s6">"wrap"</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;</span><span class="s5">div</span><span class="s2"> </span><span class="s4">class</span><span class="s2">=</span><span class="s6">"card"</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;</span><span class="s5">div</span><span class="s2"> </span><span class="s4">id</span><span class="s2">=</span><span class="s6">"root"</span><span class="s1">&gt;&lt;/</span><span class="s5">div</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;/</span><span class="s5">div</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/</span><span class="s5">div</span><span class="s1">&gt;</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">&lt;!-- React via CDN (production) --&gt;</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">script</span><span class="s7"> </span><span class="s4">src</span><span class="s7">=</span><span class="s2">"https://unpkg.com/react@18/umd/react.production.min.js"</span><span class="s7"> </span><span class="s4">crossorigin</span><span class="s1">&gt;&lt;/</span><span class="s5">script</span><span class="s1">&gt;</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s5">script</span><span class="s7"> </span><span class="s4">src</span><span class="s7">=</span><span class="s2">"https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"</span><span class="s7"> </span><span class="s4">crossorigin</span><span class="s1">&gt;&lt;/</span><span class="s5">script</span><span class="s1">&gt;</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;</span><span class="s2">script</span><span class="s1">&gt;</span></p>
-<p class="p4"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s5">const</span><span class="s7"> </span><span class="s12">e</span><span class="s7"> = </span><span class="s2">React</span><span class="s7">.</span><span class="s2">createElement</span><span class="s7">;</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s5">function</span><span class="s2"> </span><span class="s13">App</span><span class="s2">() {</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s2"> [</span><span class="s12">profile</span><span class="s2">, </span><span class="s12">setProfile</span><span class="s2">] = </span><span class="s4">React</span><span class="s2">.</span><span class="s13">useState</span><span class="s2">(</span><span class="s5">null</span><span class="s2">);</span></p>
-<p class="p9"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s7"> [</span><span class="s2">selectedCert</span><span class="s7">, </span><span class="s2">setSelectedCert</span><span class="s7">] = </span><span class="s4">React</span><span class="s7">.</span><span class="s13">useState</span><span class="s7">(</span><span class="s6">"pc"</span><span class="s7">);</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s2"> </span><span class="s12">clientsAU</span><span class="s2"> = [</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">          </span>{ </span><span class="s4">name:</span><span class="s7"> </span><span class="s2">"Insurance Australia Group"</span><span class="s7">, </span><span class="s4">flag:</span><span class="s7"> </span><span class="s2">"🇦🇺"</span><span class="s7"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>{ </span><span class="s4">name:</span><span class="s2"> </span><span class="s6">"QBE"</span><span class="s2">, </span><span class="s4">flag:</span><span class="s2"> </span><span class="s6">"🇦🇺"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>{ </span><span class="s4">name:</span><span class="s2"> </span><span class="s6">"SunCorp"</span><span class="s2">, </span><span class="s4">flag:</span><span class="s2"> </span><span class="s6">"🇦🇺"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>{ </span><span class="s4">name:</span><span class="s2"> </span><span class="s6">"Icare NSW"</span><span class="s2">, </span><span class="s4">flag:</span><span class="s2"> </span><span class="s6">"🇦🇺"</span><span class="s2"> }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>];</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s2"> </span><span class="s12">clientsUS</span><span class="s2"> = [</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">          </span>{ </span><span class="s4">name:</span><span class="s7"> </span><span class="s2">"Travelers Insurance"</span><span class="s7">, </span><span class="s4">flag:</span><span class="s7"> </span><span class="s2">"🇺🇸"</span><span class="s7"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>{ </span><span class="s4">name:</span><span class="s2"> </span><span class="s6">"UPSC"</span><span class="s2">, </span><span class="s4">flag:</span><span class="s2"> </span><span class="s6">"🇺🇸"</span><span class="s2"> }</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>];</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p9"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s7"> </span><span class="s2">certifications</span><span class="s7"> = {</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s4">pc:</span><span class="s2"> {</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s4">title:</span><span class="s7"> </span><span class="s2">"Guidewire Certified Associate"</span><span class="s7">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s4">img:</span><span class="s7"> </span><span class="s2">"./policycenter-cert.png"</span><span class="s7">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s4">desc:</span><span class="s7"> </span><span class="s2">"Certified in Guidewire configuration, integration, and customization."</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>}</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>};</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s4">React</span><span class="s2">.</span><span class="s13">useEffect</span><span class="s2">(() </span><span class="s5">=&gt;</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s13">setProfile</span><span class="s2">({</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s4">name:</span><span class="s7"> </span><span class="s2">"Chitharanjan"</span><span class="s7">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s4">role:</span><span class="s2"> </span><span class="s6">"Tech Lead"</span><span class="s2">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s4">location:</span><span class="s7"> </span><span class="s2">"Melbourne, Australia"</span><span class="s7">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s4">photoUrl:</span><span class="s7"> </span><span class="s2">"./photo.jpeg"</span><span class="s7">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s4">skills:</span><span class="s7"> [</span><span class="s2">"PolicyCenter"</span><span class="s7">, </span><span class="s2">"BillingCenter"</span><span class="s7">, </span><span class="s2">"ClaimCenter"</span><span class="s7">, </span><span class="s2">"ContactManager"</span><span class="s7">, </span><span class="s2">"Java"</span><span class="s7">]</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>});</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>}, []);</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s11">if</span><span class="s2"> (!</span><span class="s12">profile</span><span class="s2">) </span><span class="s11">return</span><span class="s2"> </span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s6">"Loading..."</span><span class="s2">);</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s11">if</span><span class="s7"> (</span><span class="s12">profile</span><span class="s7">.</span><span class="s4">error</span><span class="s7">) </span><span class="s11">return</span><span class="s7"> </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"div"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Could not load profile."</span><span class="s7">);</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">        </span></span><span class="s11">return</span><span class="s7"> </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"div"</span><span class="s7">, { </span><span class="s4">className:</span><span class="s7"> </span><span class="s2">"page-layout"</span><span class="s7"> },</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">// LEFT: Certifications</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"sidebar"</span><span class="s2"> },</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"div"</span><span class="s7">, { </span><span class="s4">className:</span><span class="s7"> </span><span class="s2">"sidebar-title"</span><span class="s7"> }, </span><span class="s2">"Certifications"</span><span class="s7">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s14">Object</span><span class="s2">.</span><span class="s13">keys</span><span class="s2">(</span><span class="s12">certifications</span><span class="s2">).</span><span class="s13">map</span><span class="s2">((</span><span class="s4">k</span><span class="s2">) </span><span class="s5">=&gt;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, {</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s4">key:</span><span class="s2"> </span><span class="s4">k</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s4">className:</span><span class="s2"> </span><span class="s6">`cert-item </span><span class="s5">${</span><span class="s12">selectedCert</span><span class="s2"> === </span><span class="s4">k</span><span class="s2"> ? </span><span class="s6">"active"</span><span class="s2"> : </span><span class="s6">""</span><span class="s5">}</span><span class="s6">`</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">onClick</span><span class="s4">:</span><span class="s2"> () </span><span class="s5">=&gt;</span><span class="s2"> </span><span class="s13">setSelectedCert</span><span class="s2">(</span><span class="s4">k</span><span class="s2">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>},</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s12">certifications</span><span class="s2">[</span><span class="s4">k</span><span class="s2">].</span><span class="s4">title</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"img"</span><span class="s2">, {</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">src:</span><span class="s2"> </span><span class="s12">certifications</span><span class="s2">[</span><span class="s4">k</span><span class="s2">].</span><span class="s4">img</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">alt:</span><span class="s2"> </span><span class="s12">certifications</span><span class="s2">[</span><span class="s4">k</span><span class="s2">].</span><span class="s4">title</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"cert-img"</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>})</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">// MIDDLE: Main content</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"main"</span><span class="s2"> },</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"row"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"img"</span><span class="s2">, {</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s4">src:</span><span class="s2"> </span><span class="s12">profile</span><span class="s2">.</span><span class="s4">photoUrl</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s4">alt:</span><span class="s2"> </span><span class="s12">profile</span><span class="s2">.</span><span class="s4">name</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s4">style:</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">width:</span><span class="s2"> </span><span class="s6">"80px"</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">height:</span><span class="s2"> </span><span class="s6">"80px"</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">borderRadius:</span><span class="s2"> </span><span class="s6">"100%"</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">objectFit:</span><span class="s2"> </span><span class="s6">"cover"</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">background:</span><span class="s2"> </span><span class="s6">"#2a3b5f"</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>}</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>}),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"h1"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"name"</span><span class="s2"> }, </span><span class="s12">profile</span><span class="s2">.</span><span class="s4">name</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"p"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"muted"</span><span class="s2"> }, </span><span class="s6">`</span><span class="s5">${</span><span class="s12">profile</span><span class="s2">.</span><span class="s4">role</span><span class="s5">}</span><span class="s6"> • </span><span class="s5">${</span><span class="s12">profile</span><span class="s2">.</span><span class="s4">location</span><span class="s5">}</span><span class="s6">`</span><span class="s2">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">            </span></span><span class="s2">// Skills + Clients</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"section"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"two-col-section"</span><span class="s2"> },</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"col"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"h2"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s6">"Skills"</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span></span><span class="s12">profile</span><span class="s2">.</span><span class="s4">skills</span><span class="s2">.</span><span class="s13">map</span><span class="s2">((</span><span class="s4">s</span><span class="s2">) </span><span class="s5">=&gt;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"span"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"pill"</span><span class="s2">, </span><span class="s4">key:</span><span class="s2"> </span><span class="s4">s</span><span class="s2"> }, </span><span class="s4">s</span><span class="s2">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"col"</span><span class="s2"> },</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                  </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"h2"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Selected Client Engagements"</span><span class="s7">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"client-cols"</span><span class="s2"> },</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"client-col"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"p"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"client-col-title"</span><span class="s2"> }, </span><span class="s6">"Australia"</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span></span><span class="s12">clientsAU</span><span class="s2">.</span><span class="s13">map</span><span class="s2">((</span><span class="s4">c</span><span class="s2">) </span><span class="s5">=&gt;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">key:</span><span class="s2"> </span><span class="s4">c</span><span class="s2">.</span><span class="s4">name</span><span class="s2">, </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"client-item"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                          </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"span"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"flag"</span><span class="s2"> }, </span><span class="s4">c</span><span class="s2">.</span><span class="s4">flag</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                          </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"span"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s4">c</span><span class="s2">.</span><span class="s4">name</span><span class="s2">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"client-col"</span><span class="s2"> },</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                      </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"p"</span><span class="s7">, { </span><span class="s4">className:</span><span class="s7"> </span><span class="s2">"client-col-title"</span><span class="s7"> }, </span><span class="s2">"United States"</span><span class="s7">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span></span><span class="s12">clientsUS</span><span class="s2">.</span><span class="s13">map</span><span class="s2">((</span><span class="s4">c</span><span class="s2">) </span><span class="s5">=&gt;</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">key:</span><span class="s2"> </span><span class="s4">c</span><span class="s2">.</span><span class="s4">name</span><span class="s2">, </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"client-item"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                          </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"span"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"flag"</span><span class="s2"> }, </span><span class="s4">c</span><span class="s2">.</span><span class="s4">flag</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                          </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"span"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s4">c</span><span class="s2">.</span><span class="s4">name</span><span class="s2">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                        </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                      </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                    </span>)</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s15">// About</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"section"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"h2"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s6">"About"</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"p"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s2">"As a Guidewire developer specializing in PolicyCenter and BillingCenter, I offer extensive expertise in crafting, implementing, and upholding insurance software solutions tailored to the distinct requirements of insurance carriers. With a robust proficiency in Guidewire's suite of products, particularly PolicyCenter and BillingCenter, I excel in tailoring and adjusting these platforms to streamline business processes and bolster operational efficiency."</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"h3"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Core Competencies"</span><span class="s7">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"ul"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"strong"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"PolicyCenter Development: "</span><span class="s7">), </span><span class="s2">"Skillful in utilizing Guidewire PolicyCenter to devise and customize insurance policy administration solutions, encompassing the configuration, integration, and customization of business rules, workflows, and user interfaces."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"strong"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"BillingCenter Development: "</span><span class="s7">), </span><span class="s2">"Seasoned in leveraging Guidewire BillingCenter to architect and execute billing and receivables management solutions, covering configuration, integration, and customization to fulfill specific business needs."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"strong"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"REST API Integration: "</span><span class="s7">), </span><span class="s2">"Proficient in crafting and deploying RESTful APIs to facilitate seamless integration between Guidewire PolicyCenter/BillingCenter and external systems, facilitating data exchange and process automation."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"strong"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Guidewire Integration: "</span><span class="s7">), </span><span class="s2">"Adept at integrating Guidewire PolicyCenter and BillingCenter with external systems, such as third-party applications, data sources, and legacy systems."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"strong"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Insurance Domain Knowledge: "</span><span class="s7">), </span><span class="s2">"Deep comprehension of insurance industry principles, encompassing policy administration, underwriting, and billing processes, enabling the effective translation of business requirements into technical solutions."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s13">e</span><span class="s7">(</span><span class="s2">"strong"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Technical Design and Solution Design: "</span><span class="s7">), </span><span class="s2">"Skilled in developing technical designs and solution architectures that align with business objectives and effectively leverage Guidewire products to address complex business requirements."</span><span class="s7">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"h3"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Accomplishments"</span><span class="s7">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"ul"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Successfully spearheaded Guidewire PolicyCenter and BillingCenter implementation projects from initiation to fruition, collaborating closely with stakeholders to ensure alignment with business objectives."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Designed and executed intricate customizations and extensions within Guidewire PolicyCenter and BillingCenter, addressing specific business requirements and augmenting system capabilities."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Integrated Guidewire PolicyCenter and BillingCenter with diverse external systems and data sources using RESTful APIs, facilitating seamless data exchange and process automation."</span><span class="s7">),</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"li"</span><span class="s7">, </span><span class="s5">null</span><span class="s7">, </span><span class="s2">"Provided technical leadership and mentorship to junior developers, nurturing a culture of continual learning and innovation within the development team."</span><span class="s7">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p7"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s2">// RIGHT: Contacts</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">          </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"div"</span><span class="s7">, { </span><span class="s4">className:</span><span class="s7"> </span><span class="s2">"right-sidebar"</span><span class="s7"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"contact-card"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"strong"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s6">"Email"</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"a"</span><span class="s7">, { </span><span class="s4">href:</span><span class="s7"> </span><span class="s2">"mailto:ranjan.personalport@gmail.com"</span><span class="s7"> }, </span><span class="s2">"ranjan.personalport@gmail.com"</span><span class="s7">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"contact-card"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"strong"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s6">"LinkedIn"</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"a"</span><span class="s2">, {</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                  </span></span><span class="s4">href:</span><span class="s7"> </span><span class="s2">"https://www.linkedin.com/in/chitharanjanchellasamy"</span><span class="s7">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">target:</span><span class="s2"> </span><span class="s6">"_blank"</span><span class="s2">,</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                  </span></span><span class="s4">rel:</span><span class="s2"> </span><span class="s6">"noreferrer"</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">                </span>}, </span><span class="s6">"View Profile"</span><span class="s2">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>),</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, { </span><span class="s4">className:</span><span class="s2"> </span><span class="s6">"contact-card"</span><span class="s2"> },</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"strong"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">, </span><span class="s6">"Phone"</span><span class="s2">),</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span></span><span class="s13">e</span><span class="s2">(</span><span class="s6">"div"</span><span class="s2">, </span><span class="s5">null</span><span class="s2">,</span></p>
-<p class="p3"><span class="s7"><span class="Apple-converted-space">                </span></span><span class="s13">e</span><span class="s7">(</span><span class="s2">"a"</span><span class="s7">, { </span><span class="s4">href:</span><span class="s7"> </span><span class="s2">"tel:+61434763663"</span><span class="s7"> }, </span><span class="s2">"+61 434 763 663"</span><span class="s7">)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">              </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">            </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">          </span>)</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">        </span>);</span></p>
-<p class="p5"><span class="s2"><span class="Apple-converted-space">      </span>}</span></p>
-<p class="p6"><span class="s10"></span><br></p>
-<p class="p10"><span class="s7"><span class="Apple-converted-space">      </span></span><span class="s4">ReactDOM</span><span class="s7">.</span><span class="s2">createRoot</span><span class="s7">(</span><span class="s4">document</span><span class="s7">.</span><span class="s2">getElementById</span><span class="s7">(</span><span class="s6">"root"</span><span class="s7">)).</span><span class="s2">render</span><span class="s7">(</span><span class="s2">e</span><span class="s7">(</span><span class="s2">App</span><span class="s7">));</span></p>
-<p class="p1"><span class="s7"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/</span><span class="s2">script</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/</span><span class="s2">body</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/</span><span class="s2">html</span><span class="s1">&gt;</span></p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chitharanjan | Profile</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 0; background: #0b0f19; color: #e6e8ee; }
+      .wrap { max-width: 2000px; margin: 0 auto; padding: 32px; }
+      .card { background: #020b1c; border: 1px solid #22304a; border-radius: 14px; padding: 10px; }
+
+      .row { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+      .name { font-size: 28px; margin: 0; }
+      .muted { color: #a9b2c7; margin: 6px 0 0; }
+      .pill { display:inline-block; padding: 8px 12px; border-radius: 999px; border: 1px solid #2b3d63; background:#0f1728; margin: 6px 8px 0 0; font-size: 14px; }
+      .section { margin-top: 18px; }
+      ul { margin: 10px 0 0; padding-left: 18px; }
+      a { color: #8fdfff; }
+
+      /* -------- 3-column layout (LEFT: certs, MIDDLE: content, RIGHT: contacts) -------- */
+      .page-layout{
+        display:grid;
+        grid-template-columns: 280px 1fr 260px;
+        gap:24px;
+        align-items:start;
+      }
+
+      .sidebar{
+        border-right:1px solid #22304a;
+        padding-right:18px;
+        position:sticky;
+        top:24px;
+      }
+
+      .main{
+        min-width:0;
+      }
+
+      .right-sidebar{
+        position:sticky;
+        top:24px;
+        display:flex;
+        flex-direction:column;
+        gap:12px;
+      }
+
+      .sidebar-title{
+        font-size:18px;
+        margin: 8px 0 14px;
+        color:#e6e8ee;
+        font-weight:700;
+      }
+
+      .cert-item{
+        padding:12px;
+        margin-bottom:10px;
+        cursor:pointer;
+        border-radius:10px;
+        color:#a9b2c7;
+        border:1px solid transparent;
+      }
+      .cert-item:hover{ background:#16203a; }
+      .cert-item.active{
+        background:#1c2a4a;
+        color:#fff;
+        border:1px solid #2b3d63;
+      }
+
+      .cert-img{
+        width:100%;
+        max-width:220px;
+        margin-top:8px;
+        border-radius:8px;
+        border:1px solid #2b3d63;
+        background:#0f1728;
+        display:block;
+      }
+
+      /* Skills + clients side-by-side inside main */
+      .two-col-section{
+        display:flex;
+        gap:32px;
+        align-items:flex-start;
+      }
+      .col{ flex:1; min-width:0; }
+
+      .client-item{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        padding:8px 0;
+        color:#c8d0e0;
+        font-size:15px;
+      }
+      .flag{ font-size:20px; }
+
+      .client-cols{
+        display:flex;
+        gap:24px;
+        align-items:flex-start;
+      }
+      .client-col{ flex:1; min-width:0; }
+      .client-col-title{
+        font-size:14px;
+        color:#a9b2c7;
+        margin: 0 0 8px 0;
+      }
+
+      /* Contact cards */
+      .contact-card{
+        border:1px solid #2b3d63;
+        background:#0f1728;
+        padding:12px 14px;
+        border-radius:12px;
+      }
+      .contact-card a{
+        text-decoration:none;
+        color:#8fdfff;
+        font-weight:600;
+        word-break: break-word;
+      }
+
+      /* -------- Mobile / Tablet -------- */
+      @media (max-width: 900px){
+        .wrap{ padding: 14px; }
+        .card{ padding: 12px; }
+
+        /* stack columns */
+        .page-layout{
+          grid-template-columns: 1fr;
+          gap:16px;
+        }
+
+        .sidebar{
+          border-right:none;
+          border-bottom:1px solid #22304a;
+          padding-right:0;
+          padding-bottom:12px;
+          position:static;
+          top:auto;
+        }
+
+        .right-sidebar{
+          position:static;
+          top:auto;
+        }
+
+        /* stack Skills and Clients */
+        .two-col-section{
+          flex-direction:column;
+          gap:16px;
+        }
+
+        /* stack AU/US */
+        .client-cols{
+          flex-direction:column;
+          gap:14px;
+        }
+
+        .cert-img{
+          max-width:100%;
+          width:100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <div id="root"></div>
+      </div>
+    </div>
+
+    <!-- React via CDN (production) -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
+    <script>
+      const e = React.createElement;
+
+      function App() {
+        const [profile, setProfile] = React.useState(null);
+        const [selectedCert, setSelectedCert] = React.useState("pc");
+
+        const clientsAU = [
+          { name: "Insurance Australia Group", flag: "🇦🇺" },
+          { name: "QBE", flag: "🇦🇺" },
+          { name: "SunCorp", flag: "🇦🇺" },
+          { name: "Icare NSW", flag: "🇦🇺" }
+        ];
+
+        const clientsUS = [
+          { name: "Travelers Insurance", flag: "🇺🇸" },
+          { name: "UPSC", flag: "🇺🇸" }
+        ];
+
+        const certifications = {
+          pc: {
+            title: "Guidewire Certified Associate",
+            img: "./policycenter-cert.png",
+            desc: "Certified in Guidewire configuration, integration, and customization."
+          }
+        };
+
+        React.useEffect(() => {
+          setProfile({
+            name: "Chitharanjan",
+            role: "Tech Lead",
+            location: "Melbourne, Australia",
+            photoUrl: "./photo.jpeg",
+            skills: ["PolicyCenter", "BillingCenter", "ClaimCenter", "ContactManager", "Java"]
+          });
+        }, []);
+
+        if (!profile) return e("div", null, "Loading...");
+        if (profile.error) return e("div", null, "Could not load profile.");
+
+        return e("div", { className: "page-layout" },
+
+          // LEFT: Certifications
+          e("div", { className: "sidebar" },
+            e("div", { className: "sidebar-title" }, "Certifications"),
+            Object.keys(certifications).map((k) =>
+              e("div", {
+                key: k,
+                className: `cert-item ${selectedCert === k ? "active" : ""}`,
+                onClick: () => setSelectedCert(k)
+              },
+                e("div", null, certifications[k].title),
+                e("img", {
+                  src: certifications[k].img,
+                  alt: certifications[k].title,
+                  className: "cert-img"
+                })
+              )
+            )
+          ),
+
+          // MIDDLE: Main content
+          e("div", { className: "main" },
+
+            e("div", { className: "row" },
+              e("img", {
+                src: profile.photoUrl,
+                alt: profile.name,
+                style: {
+                  width: "80px",
+                  height: "80px",
+                  borderRadius: "100%",
+                  objectFit: "cover",
+                  background: "#2a3b5f"
+                }
+              }),
+              e("div", null,
+                e("h1", { className: "name" }, profile.name),
+                e("p", { className: "muted" }, `${profile.role} • ${profile.location}`)
+              )
+            ),
+
+            // Skills + Clients
+            e("div", { className: "section" },
+              e("div", { className: "two-col-section" },
+
+                e("div", { className: "col" },
+                  e("h2", null, "Skills"),
+                  e("div", null,
+                    profile.skills.map((s) =>
+                      e("span", { className: "pill", key: s }, s)
+                    )
+                  )
+                ),
+
+                e("div", { className: "col" },
+                  e("h2", null, "Selected Client Engagements"),
+                  e("div", { className: "client-cols" },
+
+                    e("div", { className: "client-col" },
+                      e("p", { className: "client-col-title" }, "Australia"),
+                      clientsAU.map((c) =>
+                        e("div", { key: c.name, className: "client-item" },
+                          e("span", { className: "flag" }, c.flag),
+                          e("span", null, c.name)
+                        )
+                      )
+                    ),
+
+                    e("div", { className: "client-col" },
+                      e("p", { className: "client-col-title" }, "United States"),
+                      clientsUS.map((c) =>
+                        e("div", { key: c.name, className: "client-item" },
+                          e("span", { className: "flag" }, c.flag),
+                          e("span", null, c.name)
+                        )
+                      )
+                    )
+
+                  )
+                )
+              )
+            ),
+
+            // About
+            e("div", { className: "section" },
+              e("h2", null, "About"),
+              e("p", null,
+                "As a Guidewire developer specializing in PolicyCenter and BillingCenter, I offer extensive expertise in crafting, implementing, and upholding insurance software solutions tailored to the distinct requirements of insurance carriers. With a robust proficiency in Guidewire's suite of products, particularly PolicyCenter and BillingCenter, I excel in tailoring and adjusting these platforms to streamline business processes and bolster operational efficiency."
+              ),
+              e("h3", null, "Core Competencies"),
+              e("ul", null,
+                e("li", null, e("strong", null, "PolicyCenter Development: "), "Skillful in utilizing Guidewire PolicyCenter to devise and customize insurance policy administration solutions, encompassing the configuration, integration, and customization of business rules, workflows, and user interfaces."),
+                e("li", null, e("strong", null, "BillingCenter Development: "), "Seasoned in leveraging Guidewire BillingCenter to architect and execute billing and receivables management solutions, covering configuration, integration, and customization to fulfill specific business needs."),
+                e("li", null, e("strong", null, "REST API Integration: "), "Proficient in crafting and deploying RESTful APIs to facilitate seamless integration between Guidewire PolicyCenter/BillingCenter and external systems, facilitating data exchange and process automation."),
+                e("li", null, e("strong", null, "Guidewire Integration: "), "Adept at integrating Guidewire PolicyCenter and BillingCenter with external systems, such as third-party applications, data sources, and legacy systems."),
+                e("li", null, e("strong", null, "Insurance Domain Knowledge: "), "Deep comprehension of insurance industry principles, encompassing policy administration, underwriting, and billing processes, enabling the effective translation of business requirements into technical solutions."),
+                e("li", null, e("strong", null, "Technical Design and Solution Design: "), "Skilled in developing technical designs and solution architectures that align with business objectives and effectively leverage Guidewire products to address complex business requirements.")
+              ),
+              e("h3", null, "Accomplishments"),
+              e("ul", null,
+                e("li", null, "Successfully spearheaded Guidewire PolicyCenter and BillingCenter implementation projects from initiation to fruition, collaborating closely with stakeholders to ensure alignment with business objectives."),
+                e("li", null, "Designed and executed intricate customizations and extensions within Guidewire PolicyCenter and BillingCenter, addressing specific business requirements and augmenting system capabilities."),
+                e("li", null, "Integrated Guidewire PolicyCenter and BillingCenter with diverse external systems and data sources using RESTful APIs, facilitating seamless data exchange and process automation."),
+                e("li", null, "Provided technical leadership and mentorship to junior developers, nurturing a culture of continual learning and innovation within the development team.")
+              )
+            )
+          ),
+
+          // RIGHT: Contacts
+          e("div", { className: "right-sidebar" },
+            e("div", { className: "contact-card" },
+              e("strong", null, "Email"),
+              e("div", null,
+                e("a", { href: "mailto:ranjan.personalport@gmail.com" }, "ranjan.personalport@gmail.com")
+              )
+            ),
+
+            e("div", { className: "contact-card" },
+              e("strong", null, "LinkedIn"),
+              e("div", null,
+                e("a", {
+                  href: "https://www.linkedin.com/in/chitharanjanchellasamy",
+                  target: "_blank",
+                  rel: "noreferrer"
+                }, "View Profile")
+              )
+            ),
+
+            e("div", { className: "contact-card" },
+              e("strong", null, "Phone"),
+              e("div", null,
+                e("a", { href: "tel:+61434763663" }, "+61 434 763 663")
+              )
+            )
+          )
+        );
+      }
+
+      ReactDOM.createRoot(document.getElementById("root")).render(e(App));
+    </script>
+  </body>
 </html>
