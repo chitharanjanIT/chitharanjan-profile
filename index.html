@@ -1,34 +1,70 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" sizes="16x16" href="/favicon-16x16.png">
-<link rel="shortcut icon" href="/favicon-32x32.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="shortcut icon" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
- <title>Guidewire Tech Lead & Developer in Melbourne, Australia | Chitharanjan</title>
- <!-- Primary SEO -->
-<meta name="description" content="Chitharanjan is a Tech Lead and Guidewire Developer with 14+ years of experience in PolicyCenter, BillingCenter, and Guidewire Cloud. Based in Melbourne, Australia." />
+  <title>Guidewire Tech Lead & Developer in Melbourne, Australia | Chitharanjan</title>
 
-<meta name="keywords" content="Guidewire Developer Australia, Guidewire Tech Lead Melbourne, PolicyCenter Developer Australia, BillingCenter Developer, Guidewire Consultant Melbourne, Insurance Software Tech Lead" />
+  <meta name="description" content="Chitharanjan is a Tech Lead and Guidewire Developer with 14+ years of experience in PolicyCenter, BillingCenter, and Guidewire Cloud. Based in Melbourne, Australia." />
+  <meta name="keywords" content="Guidewire Developer Australia, Guidewire Tech Lead Melbourne, PolicyCenter Developer Australia, BillingCenter Developer, Guidewire Consultant Melbourne, Insurance Software Tech Lead" />
+  <meta name="author" content="Chitharanjan" />
+  <meta name="robots" content="index, follow" />
 
-<meta name="author" content="Chitharanjan" />
-<meta name="robots" content="index, follow" />
-<!-- Open Graph / Social -->
-<meta property="og:title" content="Guidewire Tech Lead & Developer in Melbourne, Australia" />
-<meta property="og:description" content="14+ years of experience in Guidewire PolicyCenter, BillingCenter, and cloud implementations across AU & US insurers." />
-<meta property="og:type" content="profile" />
-<meta property="og:url" content="https://chitharanjan.dev" />
-<meta property="og:image" content="https://chitharanjan.dev/photo.jpeg" />
+  <meta property="og:title" content="Guidewire Tech Lead & Developer in Melbourne, Australia" />
+  <meta property="og:description" content="14+ years of experience in Guidewire PolicyCenter, BillingCenter, and cloud implementations across AU & US insurers." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://chitharanjan.dev" />
+  <meta property="og:image" content="https://chitharanjan.dev/photo.png" />
+
   <style>
+    :root {
+      --bg: #f4f7fb;
+      --text: #18202e;
+      --muted: #5e6b84;
+      --card: #ffffff;
+      --border: #d7deea;
+      --panel: #eef3fa;
+      --pill-bg: #edf3fb;
+      --pill-border: #cbd8eb;
+      --link: #0c6fdc;
+      --hover: #e7eef9;
+      --active: #dbe8fb;
+      --shadow: rgba(0, 0, 0, 0.08);
+      --photo-bg: #dbe5f5;
+    }
+
+    body.dark {
+      --bg: #0b0f19;
+      --text: #e6e8ee;
+      --muted: #a9b2c7;
+      --card: #020b1c;
+      --border: #22304a;
+      --panel: #0f1728;
+      --pill-bg: #0f1728;
+      --pill-border: #2b3d63;
+      --link: #8fdfff;
+      --hover: #16203a;
+      --active: #1c2a4a;
+      --shadow: rgba(0, 0, 0, 0.35);
+      --photo-bg: #2a3b5f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #0b0f19;
-      color: #e6e8ee;
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.25s ease, color 0.25s ease;
     }
 
     .wrap {
@@ -37,11 +73,34 @@
       padding: 32px;
     }
 
+    .topbar {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 14px;
+    }
+
+    .theme-toggle {
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--text);
+      padding: 10px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 700;
+      box-shadow: 0 6px 18px var(--shadow);
+      transition: all 0.2s ease;
+    }
+
+    .theme-toggle:hover {
+      transform: translateY(-1px);
+    }
+
     .card {
-      background: #020b1c;
-      border: 1px solid #22304a;
+      background: var(--card);
+      border: 1px solid var(--border);
       border-radius: 14px;
       padding: 10px;
+      transition: background 0.25s ease, border-color 0.25s ease;
     }
 
     .row {
@@ -57,7 +116,7 @@
     }
 
     .muted {
-      color: #a9b2c7;
+      color: var(--muted);
       margin: 6px 0 0;
     }
 
@@ -65,8 +124,8 @@
       display: inline-block;
       padding: 8px 12px;
       border-radius: 999px;
-      border: 1px solid #2b3d63;
-      background: #0f1728;
+      border: 1px solid var(--pill-border);
+      background: var(--pill-bg);
       margin: 6px 8px 0 0;
       font-size: 14px;
     }
@@ -81,10 +140,9 @@
     }
 
     a {
-      color: #8fdfff;
+      color: var(--link);
     }
 
-    /* -------- 3-column layout (LEFT: certs, MIDDLE: content, RIGHT: contacts) -------- */
     .page-layout {
       display: grid;
       grid-template-columns: 280px 1fr 260px;
@@ -93,7 +151,7 @@
     }
 
     .sidebar {
-      border-right: 1px solid #22304a;
+      border-right: 1px solid var(--border);
       padding-right: 18px;
       position: sticky;
       top: 24px;
@@ -114,7 +172,7 @@
     .sidebar-title {
       font-size: 18px;
       margin: 8px 0 14px;
-      color: #e6e8ee;
+      color: var(--text);
       font-weight: 700;
     }
 
@@ -123,18 +181,19 @@
       margin-bottom: 10px;
       cursor: pointer;
       border-radius: 10px;
-      color: #a9b2c7;
+      color: var(--muted);
       border: 1px solid transparent;
+      transition: all 0.2s ease;
     }
 
     .cert-item:hover {
-      background: #16203a;
+      background: var(--hover);
     }
 
     .cert-item.active {
-      background: #1c2a4a;
-      color: #fff;
-      border: 1px solid #2b3d63;
+      background: var(--active);
+      color: var(--text);
+      border: 1px solid var(--pill-border);
     }
 
     .cert-img {
@@ -142,12 +201,11 @@
       max-width: 220px;
       margin-top: 8px;
       border-radius: 8px;
-      border: 1px solid #2b3d63;
-      background: #0f1728;
+      border: 1px solid var(--pill-border);
+      background: #6d0555;
       display: block;
     }
 
-    /* Skills + clients side-by-side inside main */
     .two-col-section {
       display: flex;
       gap: 32px;
@@ -164,7 +222,7 @@
       align-items: center;
       gap: 10px;
       padding: 8px 0;
-      color: #c8d0e0;
+      color: var(--text);
       font-size: 15px;
     }
 
@@ -185,26 +243,58 @@
 
     .client-col-title {
       font-size: 14px;
-      color: #a9b2c7;
+      color: var(--muted);
       margin: 0 0 8px 0;
     }
 
-    /* Contact cards */
     .contact-card {
-      border: 1px solid #2b3d63;
-      background: #0f1728;
+      border: 1px solid var(--pill-border);
+      background: var(--panel);
       padding: 12px 14px;
       border-radius: 12px;
+      transition: background 0.25s ease, border-color 0.25s ease;
     }
 
     .contact-card a {
       text-decoration: none;
-      color: #8fdfff;
+      color: var(--link);
       font-weight: 600;
       word-break: break-word;
     }
 
-    /* -------- Mobile / Tablet -------- */
+    .whatsapp-float {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #25d366;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 18px;
+      border-radius: 999px;
+      font-weight: 700;
+      box-shadow: 0 8px 24px var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .whatsapp-float:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px var(--shadow);
+      color: #fff;
+    }
+
+    .wa-icon {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .wa-text {
+      font-size: 14px;
+    }
+
     @media (max-width: 900px) {
       .wrap {
         padding: 14px;
@@ -214,7 +304,6 @@
         padding: 12px;
       }
 
-      /* stack columns */
       .page-layout {
         grid-template-columns: 1fr;
         gap: 16px;
@@ -222,7 +311,7 @@
 
       .sidebar {
         border-right: none;
-        border-bottom: 1px solid #22304a;
+        border-bottom: 1px solid var(--border);
         padding-right: 0;
         padding-bottom: 12px;
         position: static;
@@ -232,7 +321,6 @@
 
       .main {
         order: 1;
-        /* main content FIRST */
       }
 
       .right-sidebar {
@@ -241,13 +329,11 @@
         order: 2;
       }
 
-      /* stack Skills and Clients */
       .two-col-section {
         flex-direction: column;
         gap: 16px;
       }
 
-      /* stack AU/US */
       .client-cols {
         flex-direction: column;
         gap: 14px;
@@ -257,45 +343,109 @@
         max-width: 100%;
         width: 100%;
       }
+
+      .whatsapp-float {
+        right: 14px;
+        bottom: 14px;
+        padding: 12px 16px;
+      }
+
+      .wa-text {
+        font-size: 13px;
+      }
     }
   </style>
+
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+        document.documentElement.classList.add("dark");
+        document.addEventListener("DOMContentLoaded", () => {
+          document.body.classList.add("dark");
+        });
+      }
+    })();
+  </script>
+
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Chitharanjan",
-  "jobTitle": "Guidewire Tech Lead",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Melbourne",
-    "addressCountry": "Australia"
-  },
-  "knowsAbout": [
-    "Guidewire PolicyCenter",
-    "Guidewire BillingCenter",
-    "Guidewire Cloud",
-    "Insurance Software Development"
-  ],
-  "url": "https://chitharanjan.dev",
-  "sameAs": [
-    "https://www.linkedin.com/in/chitharanjanchellasamy"
-  ]
-}
-</script>
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Chitharanjan",
+      "jobTitle": "Guidewire Tech Lead",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Melbourne",
+        "addressCountry": "Australia"
+      },
+      "knowsAbout": [
+        "Guidewire PolicyCenter",
+        "Guidewire BillingCenter",
+        "Guidewire Cloud",
+        "Insurance Software Development"
+      ],
+      "url": "https://chitharanjan.dev",
+      "sameAs": [
+        "https://www.linkedin.com/in/chitharanjanchellasamy"
+      ]
+    }
+  </script>
 </head>
 
 <body>
   <div class="wrap">
+    <div class="topbar">
+      <button id="themeToggle" class="theme-toggle" type="button">🌙 Dark Mode</button>
+    </div>
+
     <div class="card">
       <div id="root"></div>
     </div>
   </div>
 
-  <!-- React via CDN (production) -->
+  <a
+    href="https://wa.me/61434763663?text=Hi%20Chitharanjan%2C%20I%20visited%20your%20website%20and%20wanted%20to%20connect."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Chat on WhatsApp"
+  >
+    <span class="wa-icon">💬</span>
+    <span class="wa-text">Chat on WhatsApp</span>
+  </a>
+
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 
   <script>
+    const themeToggle = document.getElementById("themeToggle");
+
+    function updateThemeButton() {
+      const isDark = document.body.classList.contains("dark");
+      themeToggle.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
+    }
+
+    function applyTheme(theme) {
+      if (theme === "dark") {
+        document.body.classList.add("dark");
+        document.documentElement.classList.add("dark");
+      } else {
+        document.body.classList.remove("dark");
+        document.documentElement.classList.remove("dark");
+      }
+      localStorage.setItem("theme", theme);
+      updateThemeButton();
+    }
+
+    updateThemeButton();
+
+    themeToggle.addEventListener("click", () => {
+      const isDark = document.body.classList.contains("dark");
+      applyTheme(isDark ? "light" : "dark");
+    });
+
     const e = React.createElement;
 
     function App() {
@@ -337,8 +487,9 @@
           name: "Chitharanjan",
           role: "Tech Lead",
           location: "Melbourne, Australia",
-          photoUrl: "./photo.jpeg",
-          skills: ["PolicyCenter",
+          photoUrl: "./photo.png",
+          skills: [
+            "PolicyCenter",
             "BillingCenter",
             "ClaimCenter",
             "ContactManager",
@@ -351,7 +502,8 @@
             "Solution Design",
             "Technical Leadership",
             "Performance Optimisation",
-            "CI/CD"]
+            "CI/CD"
+          ]
         });
       }, []);
 
@@ -360,7 +512,6 @@
 
       return e("div", { className: "page-layout" },
 
-        // LEFT: Certifications
         e("div", { className: "sidebar" },
           e("div", { className: "sidebar-title" }, "Certifications"),
           Object.keys(certifications).map((k) =>
@@ -379,7 +530,6 @@
           )
         ),
 
-        // MIDDLE: Main content
         e("div", { className: "main" },
 
           e("div", { className: "row" },
@@ -391,7 +541,7 @@
                 height: "80px",
                 borderRadius: "100%",
                 objectFit: "cover",
-                background: "#2a3b5f"
+                background: "var(--photo-bg)"
               }
             }),
             e("div", null,
@@ -400,7 +550,6 @@
             )
           ),
 
-          // Skills + Clients
           e("div", { className: "section" },
             e("div", { className: "two-col-section" },
 
@@ -440,13 +589,11 @@
                       )
                     )
                   )
-
                 )
               )
             )
           ),
 
-          // About
           e("div", { className: "section" },
             e("h2", null, "About"),
             e("p", null,
@@ -471,7 +618,6 @@
           )
         ),
 
-        // RIGHT: Contacts
         e("div", { className: "right-sidebar" },
           e("div", { className: "contact-card" },
             e("strong", null, "Email"),
@@ -489,9 +635,7 @@
                 rel: "noreferrer"
               }, "View Profile")
             )
-          ),
-
-
+          )
         )
       );
     }
@@ -499,5 +643,4 @@
     ReactDOM.createRoot(document.getElementById("root")).render(e(App));
   </script>
 </body>
-
 </html>
